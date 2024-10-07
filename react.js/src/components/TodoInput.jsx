@@ -4,7 +4,7 @@ export default function TodoInput(props){
     const {handleAddTodos} = props
 
     const [todoValue, setTodoValue] = useState('')
-    
+
     return (
         <header>
             <input value={todoValue} onChange={(e) => {
@@ -12,6 +12,7 @@ export default function TodoInput(props){
             }} placeholder="Enter todo..."/>
             <button onClick={()=>{
                 handleAddTodos(todoValue)
+                setTodoValue('')
             }}>Add</button>
         </header>
     )

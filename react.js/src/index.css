@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background-image: url(assets/wall-wallpaper-concrete-colored-painted-textured-concept.jpg);
   gap: 14px;
 }
 
@@ -59,7 +59,7 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: #eff6ff;
 }
 
 p {
